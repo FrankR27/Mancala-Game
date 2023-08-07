@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Level_Window</class>
+ <widget class="QMainWindow" name="Level_Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>882</width>
+    <height>568</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#30475e	;
+border-radius:12px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_title">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>60</y>
+      <width>321</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Neo Tech Alt</family>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#222831;
+</string>
+    </property>
+    <property name="text">
+     <string>MANCALA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>-10</y>
+      <width>301</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/3312354-200.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hard">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>420</y>
+      <width>281</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:#f5e6ca;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Hard Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_medium">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>310</y>
+      <width>281</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:#f5e6ca;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Medium Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_easy">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>200</y>
+      <width>281</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:#f5e6ca;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Easy Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+background:#f5e6ca;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_ai_first">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>330</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>AI First</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_p1_first">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>240</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt \&quot;MV Boli\&quot;;
+color:#222831;
+border-radius:12px;</string>
+    </property>
+    <property name="text">
+     <string>Player 1 First</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>lbl_title</zorder>
+   <zorder>btn_hard</zorder>
+   <zorder>btn_medium</zorder>
+   <zorder>btn_easy</zorder>
+   <zorder>btn_back</zorder>
+   <zorder>radioButton_ai_first</zorder>
+   <zorder>radioButton_p1_first</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>882</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="3.qrc"/>
+ </resources>
+ <connections/>
+</ui>
